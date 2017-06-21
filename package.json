@@ -1,0 +1,36 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "reactapp",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm run build && npm run git-add && npm run git-commit && npm run git-push",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "git-add": "git add *",
+    "git-commit": "git commit -a",
+    "git-push": "git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emasuncion/reactproj.git"
+  },
+  "author": "Eleirold Asuncion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emasuncion/reactproj/issues"
+  },
+  "homepage": "https://github.com/emasuncion/reactproj#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
