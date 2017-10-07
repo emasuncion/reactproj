@@ -1,0 +1,108 @@
+body {
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #FFCC00 !important;
+}
+
+h1, h2, p, ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+#title {
+	float: right;
+	font-size: 28px;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 90%;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+img#think {
+	height: 100px;
+	position: relative;
+	top: 50%;
+	left: 47%;
+	margin: 50px 0 0 -50px;
+}
+
+footer {
+	background-color: #222;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 45px;
+	width: 100%;
+	overflow:hidden;
+}
+
+footer ul li {
+	color: #9d9d9d;
+	padding: 5px;
+	float: right;
+	display: inline-block;
+}
+
+h1#reactLabel:hover {
+	text-decoration: none !important;
+	color: #337ab7 !important;
+	cursor: default;
+}
+h1#reactLabel:active {
+	text-decoration: none !important; 
+}
+
+.selected {
+	background-color: blue
+}
+
+.content .reactHeader {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#githubicon {
+	padding: 0 !important;
+}
+
+footer ul li a, footer ul li a:hover, footer ul li a:visited, footer ul li a:active {
+	color: #9d9d9d;
+	text-decoration: none;
+}
+
+#react1 {
+	padding: 50px;
+}
